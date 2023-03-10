@@ -83,20 +83,13 @@ WSGI_APPLICATION = 'django_movie.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': os.environ.get('Engine'),
-    #     'NAME': os.environ.get('Name'),
-    #     'USER': os.environ.get('User'),
-    #     'PASSWORD': os.environ.get('Password'),
-    #     'HOST': os.environ.get('Host'),
-    #     'PORT': os.environ.get('Port'),
-    # }
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mydb',
-        'USER': 'root',
-        'PASSWORD': 'testtest',
-        'HOST': '172.17.0.2',
+        'ENGINE': os.environ.get('Engine'),
+        'NAME': os.environ.get('Name'),
+        'USER': os.environ.get('User'),
+        'PASSWORD': os.environ.get('Password'),
+        'HOST': os.environ.get('Host'),
+        'PORT': os.environ.get('Port'),
     }
 }
 
