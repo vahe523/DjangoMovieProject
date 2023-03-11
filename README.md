@@ -1,5 +1,3 @@
-# DjangoMovieProject
-
 # Swagger docs
 ![Screenshot from 2023-03-11 14-29-13](https://user-images.githubusercontent.com/48332399/224479286-7dc12f61-2c12-4545-87e1-3178ca2f5152.png)
 ![Screenshot from 2023-03-11 14-29-30](https://user-images.githubusercontent.com/48332399/224479288-a4c4ea9f-6de2-406b-afbd-65a6ee6ac674.png)
